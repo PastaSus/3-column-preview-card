@@ -185,7 +185,7 @@
     }
 
     .content_desc {
-      height: 275px;
+      height: 285px;
     }
     
     .grid1{
@@ -204,10 +204,6 @@
 
     #grid3paragraph{
       margin-right: 10px;
-    }
-
-    .content_desc{
-      min-height: 285px;  
     }
 
     .gridcontent{

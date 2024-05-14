@@ -30,7 +30,7 @@
     /* (background, headings, buttons) */
   }
 
-  html,
+ html,
   body {
     position: relative;
     height: 100vh;
@@ -176,6 +176,10 @@
       max-height: 300px;
     } */
 
+    main{
+      align-items: flex-start;
+    }
+
     .content{
     grid-template-columns: 1fr;
     }
@@ -184,6 +188,33 @@
       height: 275px;
     }
     
+    .grid1{
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 0px;
+    }
+
+    .grid3{
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 0px;
+    }
+    
+    #grid1paragraph{
+      margin-right: 5px;
+    }
+
+    #grid3paragraph{
+      margin-right: 10px;
+    }
+
+    .content_desc{
+      min-height: 285px;  
+    }
+
+    .gridcontent{
+     padding-left: 40px;
+     padding-right: 40px;
+     max-height: 460px;
+    }
   }
 
 

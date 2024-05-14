@@ -188,14 +188,16 @@
       height: 285px;
     }
     
-    .grid1{
+   .grid1{
       border-top-right-radius: 10px;
       border-bottom-left-radius: 0px;
+      margin-top: 40px;
     }
 
     .grid3{
       border-bottom-left-radius: 10px;
       border-top-right-radius: 0px;
+      margin-bottom: 60px;
     }
     
     #grid1paragraph{
